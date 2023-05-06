@@ -12,6 +12,12 @@ Expensum is an app that tracks your expenses. It provides a more accurate and de
 pip3 install django
 ```
 
+### Install Dependencies
+
+```
+pip install requirements.txt
+```
+
 ### Prepare your environment
 
 ```
