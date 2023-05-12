@@ -139,9 +139,15 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 EMAIL_HOST = 'smtp.gmail.com'                                                                                                                                           
 EMAIL_PORT = 465
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'gettinglow43@gmail.com'
-EMAIL_HOST_PASSWORD = 'meerasingh'
-DEFAULT_FROM_EMAIL = 'gettinglow43@gmail.com'
+EMAIL_HOST_USER = 'expensumv2@gmail.com'
+EMAIL_HOST_PASSWORD = 'Expensum@123'
+DEFAULT_FROM_EMAIL = 'expensumv2@gmail.com'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger'
+}
 
 
 
