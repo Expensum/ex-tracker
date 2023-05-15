@@ -22,7 +22,6 @@ from django.contrib.auth.tokens import PasswordResetTokenGenerator
 
 # Create your views here.
 
-
 class EmailValidationView(View):
     def post(self, request):
         data = json.loads(request.body)
